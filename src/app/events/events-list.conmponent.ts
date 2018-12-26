@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'events-list',
   template: `
-  <h1>Hello</h1>
+  <nav-bar></nav-bar>
   <div>Upcoming Events</div>
   <event-Thumbnail [event]="event1" (eventClick)="handleEventClicked($event)"></event-Thumbnail>
   `
