@@ -3,7 +3,10 @@ import { EventsListComponent } from './events/events-list.conmponent';
 
 @Component({
   selector: 'eventsApp',
-  template: "<events-list></events-list>"
+  template: `
+    <nav-bar></nav-bar>
+  <router-outlet></router-outlet>
+  `
 })
 export class EventsAppComponent {
   title = 'app';
